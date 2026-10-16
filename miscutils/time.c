@@ -27,7 +27,7 @@
 //usage:     "\n	-v	Verbose"
 
 #include "libbb.h"
-#include <sys/resource.h> /* getrusage */
+// #include <sys/resource.h> /* getrusage */
 
 /* Information on the resources used by a child process.  */
 typedef struct {

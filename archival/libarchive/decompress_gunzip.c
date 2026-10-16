@@ -33,7 +33,7 @@
  * Licensed under GPLv2 or later, see file LICENSE in this source tree.
  */
 
-#include <setjmp.h>
+// #include <setjmp.h>
 #include "libbb.h"
 #include "bb_archive.h"
 

@@ -21,19 +21,19 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
  */
-#include <stdlib.h>
-#include <unistd.h>
-#include <stdarg.h>
-#include <string.h>
-#include <errno.h>
-#include <fcntl.h>
-#include <stdio.h>
-#include <time.h>
-#include <poll.h>
-#include <sys/socket.h>
+// #include <stdlib.h>
+// #include <unistd.h>
+// #include <stdarg.h>
+// #include <string.h>
+// #include <errno.h>
+// #include <fcntl.h>
+// #include <stdio.h>
+// #include <time.h>
+// #include <poll.h>
+// #include <sys/socket.h>
 
-#include <wolfssl/wolfcrypt/types.h>
-#include <wolfssl/ssl.h>
+// #include <wolfssl/wolfcrypt/types.h>
+// #include <wolfssl/ssl.h>
 
 #if 0
 # define dbg(...) say(__VA_ARGS__)

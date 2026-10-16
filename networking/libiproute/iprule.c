@@ -13,9 +13,9 @@
  * initially integrated into busybox by Bernhard Reutner-Fischer
  */
 
-#include <netinet/in.h>
-#include <netinet/ip.h>
-#include <arpa/inet.h>
+// #include <netinet/in.h>
+// #include <netinet/ip.h>
+// #include <arpa/inet.h>
 
 #include "ip_common.h"  /* #include "libbb.h" is inside */
 #include "rt_names.h"

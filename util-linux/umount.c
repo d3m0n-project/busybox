@@ -48,8 +48,8 @@
 //usage:#define umount_example_usage
 //usage:       "$ umount /dev/hdc1\n"
 
-#include <mntent.h>
-#include <sys/mount.h>
+// #include <mntent.h>
+// #include <sys/mount.h>
 #ifndef MNT_DETACH
 # define MNT_DETACH 0x00000002
 #endif

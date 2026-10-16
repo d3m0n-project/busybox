@@ -185,9 +185,9 @@
 //usage:#define mount_notes_usage
 //usage:       "Returns 0 for success, number of failed mounts for -a, or errno for one mount."
 
-#include <mntent.h>
-#include <syslog.h>
-#include <sys/mount.h>
+// #include <mntent.h>
+// #include <syslog.h>
+// #include <sys/mount.h>
 // Grab more as needed from util-linux's mount/mount_constants.h
 #ifndef MS_DIRSYNC
 # define MS_DIRSYNC     (1 << 7) // Directory modifications are synchronous
@@ -239,7 +239,7 @@
 #endif
 
 // Needed for nfs support only
-#include <sys/utsname.h>
+// #include <sys/utsname.h>
 #undef TRUE
 #undef FALSE
 #if ENABLE_FEATURE_MOUNT_NFS

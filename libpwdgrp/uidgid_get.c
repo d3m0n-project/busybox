@@ -112,7 +112,7 @@ void FAST_FUNC parse_chown_usergroup_or_die(struct bb_uidgid_t *u, char *user_gr
 }
 
 #if 0
-#include <stdio.h>
+// #include <stdio.h>
 int main()
 {
 	unsigned u;

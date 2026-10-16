@@ -31,7 +31,7 @@
 //usage:       "$ chrt -f -p 3 $x\n"
 //usage:       "You need CAP_SYS_NICE privileges to set scheduling attributes of a process"
 
-#include <sched.h>
+// #include <sched.h>
 #include "libbb.h"
 
 static const struct {

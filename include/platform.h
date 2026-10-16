@@ -143,7 +143,7 @@
 
 /* ---- Endian Detection ------------------------------------ */
 
-#include <limits.h>
+// #include <limits.h>
 #if defined(__digital__) && defined(__unix__)
 # include <sex.h>
 #elif defined(__FreeBSD__) || defined(__OpenBSD__) || defined(__NetBSD__) \
@@ -154,34 +154,12 @@
 # define bswap_32 __bswap32
 # define bswap_16 __bswap16
 #else
-# include <byteswap.h>
-# include <endian.h>
+//# include <byteswap.h>
+//# include <endian.h>
 #endif
 
-#if defined(__BYTE_ORDER) && __BYTE_ORDER == __BIG_ENDIAN
-# define BB_BIG_ENDIAN 1
-# define BB_LITTLE_ENDIAN 0
-#elif defined(__BYTE_ORDER) && __BYTE_ORDER == __LITTLE_ENDIAN
 # define BB_BIG_ENDIAN 0
 # define BB_LITTLE_ENDIAN 1
-#elif defined(_BYTE_ORDER) && _BYTE_ORDER == _BIG_ENDIAN
-# define BB_BIG_ENDIAN 1
-# define BB_LITTLE_ENDIAN 0
-#elif defined(_BYTE_ORDER) && _BYTE_ORDER == _LITTLE_ENDIAN
-# define BB_BIG_ENDIAN 0
-# define BB_LITTLE_ENDIAN 1
-#elif defined(BYTE_ORDER) && BYTE_ORDER == BIG_ENDIAN
-# define BB_BIG_ENDIAN 1
-# define BB_LITTLE_ENDIAN 0
-#elif defined(BYTE_ORDER) && BYTE_ORDER == LITTLE_ENDIAN
-# define BB_BIG_ENDIAN 0
-# define BB_LITTLE_ENDIAN 1
-#elif defined(__386__)
-# define BB_BIG_ENDIAN 0
-# define BB_LITTLE_ENDIAN 1
-#else
-# error "Can't determine endianness"
-#endif
 
 #if ULONG_MAX > 0xffffffff
 # define bb_bswap_64(x) bswap_64(x)
@@ -211,7 +189,7 @@
 
 /* ---- Unaligned access ------------------------------------ */
 
-#include <stdint.h>
+// #include <stdint.h>
 typedef int      bb__aliased_int      FIX_ALIASING;
 typedef long     bb__aliased_long     FIX_ALIASING;
 typedef uint16_t bb__aliased_uint16_t FIX_ALIASING;
@@ -288,7 +266,7 @@ typedef unsigned smalluint;
  || defined __dietlibc__ \
  || defined __BIONIC__ \
  || defined _NEWLIB_VERSION
-# include <features.h>
+//# include <features.h>
 #endif
 
 /* Define bb_setpgrp */
@@ -300,7 +278,7 @@ typedef unsigned smalluint;
 #endif
 
 /* fdprintf is more readable, we used it before dprintf was standardized */
-#include <unistd.h>
+// #include <unistd.h>
 #define fdprintf dprintf
 
 /* Useful for defeating gcc's alignment of "char message[]"-like data */
@@ -542,7 +520,7 @@ extern char *stpcpy(char *p, const char *to_add) FAST_FUNC;
 #endif
 
 #ifndef HAVE_MEMPCPY
-#include <string.h>
+// #include <string.h>
 /* In case we are wrong about !HAVE_MEMPCPY, and toolchain _does_ have
  * mempcpy(), avoid colliding with it:
  */

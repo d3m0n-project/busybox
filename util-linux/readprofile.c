@@ -57,7 +57,7 @@
 //usage:     "\n	-n		Disable byte order auto-detection"
 
 #include "libbb.h"
-#include <sys/utsname.h>
+// #include <sys/utsname.h>
 
 #define S_LEN 128
 

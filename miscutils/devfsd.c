@@ -130,10 +130,10 @@
 
 #include "libbb.h"
 #include "xregex.h"
-#include <syslog.h>
+// #include <syslog.h>
 
-#include <sys/un.h>
-#include <sys/sysmacros.h>
+// #include <sys/un.h>
+// #include <sys/sysmacros.h>
 
 /* Various defines taken from linux/major.h */
 #define IDE0_MAJOR	3

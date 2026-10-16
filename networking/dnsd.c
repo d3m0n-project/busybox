@@ -42,7 +42,7 @@
 //usage:     "\n			nameserver NORMAL_DNS_SERVER"
 
 #include "libbb.h"
-#include <syslog.h>
+// #include <syslog.h>
 
 //#define DEBUG 1
 #define DEBUG 0

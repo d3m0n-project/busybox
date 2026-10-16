@@ -79,7 +79,7 @@
 #include "libbb.h"
 #include "common_bufsiz.h"
 #if ENABLE_FEATURE_SETFILES_CHECK_OPTION
-#include <sepol/sepol.h>
+// #include <sepol/sepol.h>
 #endif
 
 #define MAX_EXCLUDES 50

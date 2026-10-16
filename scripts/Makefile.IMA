@@ -40,8 +40,8 @@ HOSTCC = cc
 endif
 AS              = $(CROSS_COMPILE)as
 CC              = $(CROSS_COMPILE)gcc
-LD              = $(CC) -nostdlib
-CPP             = $(CC) -E
+LD              = d3c -nostdlib
+CPP             = d3c -E
 AR              = $(CROSS_COMPILE)ar
 NM              = $(CROSS_COMPILE)nm
 STRIP           = $(CROSS_COMPILE)strip
@@ -175,7 +175,7 @@ lib-y:=
 
 comma:=,
 busybox_unstripped.o: $(usage_stuff) include/applet_tables.h include/NUM_APPLETS.h include/autoconf.h
-	$(CC) $(CPPFLAGS) $(CFLAGS) $(EXTRA_CFLAGS) \
+	d3c $(CPPFLAGS) $(CFLAGS) $(EXTRA_CFLAGS) \
 		$(patsubst %,-Wl$(comma)%,$(LDFLAGS) $(EXTRA_LDFLAGS)) \
 		-DGCC_COMBINE=1 \
 		--combine $(WHOLE_PROGRAM) \
@@ -186,7 +186,7 @@ busybox_unstripped.o: $(usage_stuff) include/applet_tables.h include/NUM_APPLETS
 busybox: busybox_unstripped.o
 	$(srctree)/scripts/trylink \
 		busybox_unstripped \
-		"$(CC) $(CFLAGS_busybox)" \
+		"d3c $(CFLAGS_busybox)" \
 		"$(CFLAGS)" \
 		"$(LDFLAGS)" \
 		"busybox_unstripped.o" \

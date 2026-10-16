@@ -32,7 +32,7 @@
 //usage:     "\n	set_name_type	NAME_TYPE"
 
 #include "libbb.h"
-#include <net/if.h>
+// #include <net/if.h>
 
 /* Stuff from linux/if_vlan.h, kernel version 2.4.23 */
 enum vlan_ioctl_cmds {

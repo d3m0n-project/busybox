@@ -23,7 +23,7 @@
 //usage:	"Rename UBI volumes on UBI_DEVICE"
 
 #include "libbb.h"
-#include <mtd/mtd-user.h>
+// #include <mtd/mtd-user.h>
 
 #ifndef __packed
 # define __packed __attribute__((packed))

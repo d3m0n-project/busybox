@@ -52,7 +52,7 @@
 //usage:#define fdflush_full_usage "\n\n"
 //usage:       "Force floppy disk drive to detect disk change"
 
-#include <sys/mount.h>
+// #include <sys/mount.h>
 #include "libbb.h"
 
 /* From <linux/fd.h> */

@@ -84,7 +84,7 @@
 #include "reboot.h"
 
 #if ENABLE_FEATURE_WTMP
-#include <sys/utsname.h>
+// #include <sys/utsname.h>
 
 static void write_wtmp(void)
 {

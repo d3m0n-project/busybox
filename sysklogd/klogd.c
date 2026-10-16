@@ -59,7 +59,7 @@
 
 #include "libbb.h"
 #include "common_bufsiz.h"
-#include <syslog.h>
+// #include <syslog.h>
 
 
 /* The Linux-specific klogctl(3) interface does not rely on the filesystem and

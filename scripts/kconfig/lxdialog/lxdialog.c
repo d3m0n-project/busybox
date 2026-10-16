@@ -48,7 +48,7 @@ static struct Mode modes[] = {
 static struct Mode *modePtr;
 
 #ifdef LOCALE
-#include <locale.h>
+// #include <locale.h>
 #endif
 
 int main(int argc, const char *const *argv)

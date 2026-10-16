@@ -37,7 +37,7 @@
 //usage:     "\n		wimax, wwan, gps, fm"
 
 #include "libbb.h"
-#include <linux/rfkill.h>
+// #include <linux/rfkill.h>
 
 enum {
 	OPT_b = (1 << 0), /* must be = 1 */

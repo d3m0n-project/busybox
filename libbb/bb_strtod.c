@@ -8,7 +8,7 @@
  */
 
 #include "libbb.h"
-#include <math.h>  /* just for HUGE_VAL */
+// #include <math.h>  /* just for HUGE_VAL */
 
 #define NOT_DIGIT(a) (((unsigned char)(a-'0')) > 9)
 

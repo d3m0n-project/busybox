@@ -29,8 +29,8 @@
 //usage:     "\n	-q	Don't display progress messages"
 
 #include "libbb.h"
-#include <mtd/mtd-user.h>
-#include <linux/jffs2.h>
+// #include <mtd/mtd-user.h>
+// #include <linux/jffs2.h>
 
 #define OPTION_J  (1 << 0)
 #define OPTION_N  (1 << 1)

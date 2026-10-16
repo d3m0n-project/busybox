@@ -95,7 +95,7 @@
 //usage:     "\n	-v		Make version 2 filesystem"
 
 #include "libbb.h"
-#include <mntent.h>
+// #include <mntent.h>
 
 #include "minix.h"
 

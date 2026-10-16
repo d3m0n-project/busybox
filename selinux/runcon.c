@@ -65,7 +65,7 @@
 //usage:     "\n	-l RNG	Levelrange"
 //usage:	)
 
-#include <selinux/context.h>
+// #include <selinux/context.h>
 /* from deprecated <selinux/flask.h>: */
 #undef  SECCLASS_PROCESS
 #define SECCLASS_PROCESS 2

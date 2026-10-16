@@ -25,8 +25,8 @@
  * The code was modified by Bart Visscher <magick@linux-fan.com>
  */
 
-#include <net/if.h>
-#include <netinet/ip_icmp.h>
+// #include <net/if.h>
+// #include <netinet/ip_icmp.h>
 #include "libbb.h"
 #include "common_bufsiz.h"
 

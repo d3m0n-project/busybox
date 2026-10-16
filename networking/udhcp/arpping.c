@@ -5,8 +5,8 @@
  *
  * Licensed under GPLv2, see file LICENSE in this source tree.
  */
-#include <netinet/if_ether.h>
-#include <net/if_arp.h>
+// #include <netinet/if_ether.h>
+// #include <net/if_arp.h>
 
 #include "common.h"
 

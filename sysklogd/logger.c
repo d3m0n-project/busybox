@@ -36,7 +36,7 @@
 #include "libbb.h"
 #define SYSLOG_NAMES
 #define SYSLOG_NAMES_CONST
-#include <syslog.h>
+// #include <syslog.h>
 */
 
 /* Decode a symbolic name to a numeric value

@@ -85,9 +85,9 @@
 //usage:     "\n	-p PASSWORD	Append four or six byte PASSWORD to the packet"
 
 #include "libbb.h"
-#include <netpacket/packet.h>
-#include <netinet/ether.h>
-#include <linux/if.h>
+// #include <netpacket/packet.h>
+// #include <netinet/ether.h>
+// #include <linux/if.h>
 
 /* Note: PF_INET, SOCK_DGRAM, IPPROTO_UDP would allow SIOCGIFHWADDR to
  * work as non-root, but we need SOCK_PACKET to specify the Ethernet

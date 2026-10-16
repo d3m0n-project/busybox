@@ -53,7 +53,7 @@
  *   New implementation contributed by Richard Henderson <rth@tamu.edu>
  *   Based on original work by Bjorn Ekwall <bj0rn@blox.se>
  *   Restructured (and partly rewritten) by:
- *   Björn Ekwall <bj0rn@blox.se> February 1999
+ *   Bjï¿½rn Ekwall <bj0rn@blox.se> February 1999
  *
  * Licensed under GPLv2 or later, see file LICENSE in this source tree.
  */
@@ -62,7 +62,7 @@
 
 #include "libbb.h"
 #include "modutils.h"
-#include <sys/utsname.h>
+// #include <sys/utsname.h>
 
 #if ENABLE_FEATURE_INSMOD_LOADINKMEM
 #define LOADBITS 0
@@ -193,7 +193,7 @@
 /* Microblaze */
 #if defined(__microblaze__)
 #define USE_SINGLE
-#include <linux/elf-em.h>
+// #include <linux/elf-em.h>
 #define MATCH_MACHINE(x) (x == EM_XILINX_MICROBLAZE)
 #define SHT_RELM	SHT_RELA
 #define Elf32_RelM	Elf32_Rela
@@ -502,8 +502,8 @@ int delete_module(const char *module, unsigned int flags);
 
 /* The relocatable object is manipulated using elfin types.  */
 
-#include <elf.h>
-#include <endian.h>
+// #include <elf.h>
+// #include <endian.h>
 
 #ifndef ElfW
 # if ELFCLASSM == ELFCLASS32

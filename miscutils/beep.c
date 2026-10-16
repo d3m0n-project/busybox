@@ -45,7 +45,7 @@
 
 #include "libbb.h"
 
-#include <linux/kd.h>
+// #include <linux/kd.h>
 #ifndef CLOCK_TICK_RATE
 # define CLOCK_TICK_RATE 1193180
 #endif

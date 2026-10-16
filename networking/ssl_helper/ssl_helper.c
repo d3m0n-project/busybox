@@ -19,15 +19,15 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  * http://www.gnu.org/copyleft/gpl.html
  */
-#include <errno.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <stdarg.h>
-#include <fcntl.h>
-#include <stdio.h>
-#include <time.h>
-#include <poll.h>
-#include <sys/socket.h>
+// #include <errno.h>
+// #include <stdlib.h>
+// #include <unistd.h>
+// #include <stdarg.h>
+// #include <fcntl.h>
+// #include <stdio.h>
+// #include <time.h>
+// #include <poll.h>
+// #include <sys/socket.h>
 
 #include "matrixssl/matrixsslApi.h"
 

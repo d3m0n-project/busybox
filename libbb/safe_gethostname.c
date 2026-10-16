@@ -25,7 +25,7 @@
  */
 
 #include "libbb.h"
-#include <sys/utsname.h>
+// #include <sys/utsname.h>
 
 /*
  * On success return the current malloced and NUL terminated hostname.

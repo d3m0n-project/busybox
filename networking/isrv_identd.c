@@ -30,7 +30,7 @@
 
 #include "libbb.h"
 #include "common_bufsiz.h"
-#include <syslog.h>
+// #include <syslog.h>
 #include "isrv.h"
 
 enum { TIMEOUT = 20 };

@@ -23,7 +23,7 @@
 //kbuild:lib-$(CONFIG_UDHCPC6) += d6_dhcpc.o d6_packet.o d6_socket.o common.o socket.o signalpipe.o
 
 
-#include <syslog.h>
+// #include <syslog.h>
 /* Override ENABLE_FEATURE_PIDFILE - ifupdown needs our pidfile to always exist */
 #define WANT_PIDFILE 1
 #include "common.h"
@@ -31,9 +31,9 @@
 #include "dhcpc.h"
 #include "d6_common.h"
 
-#include <netinet/if_ether.h>
-#include <netpacket/packet.h>
-#include <linux/filter.h>
+// #include <netinet/if_ether.h>
+// #include <netpacket/packet.h>
+// #include <linux/filter.h>
 
 /* "struct client_config_t client_config" is in bb_common_bufsiz1 */
 

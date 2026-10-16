@@ -3,11 +3,11 @@
  * Released under the terms of the GNU GPL v2.0.
  */
 
-#include <ctype.h>
-#include <stdlib.h>
-#include <string.h>
-#include <regex.h>
-#include <sys/utsname.h>
+// #include <ctype.h>
+// #include <stdlib.h>
+// #include <string.h>
+// #include <regex.h>
+// #include <sys/utsname.h>
 
 #define LKC_DIRECT_LINK
 #include "lkc.h"

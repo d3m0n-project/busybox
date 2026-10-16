@@ -46,7 +46,7 @@
 
 #include "libbb.h"
 #include "common_bufsiz.h"
-#include <math.h>
+// #include <math.h>
 
 #if 0
 typedef unsigned data_t;

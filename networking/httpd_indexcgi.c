@@ -36,16 +36,16 @@ httpd_indexcgi.c -o index.cgi
  */
 
 #define _GNU_SOURCE 1  /* for strchrnul */
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <errno.h>
-#include <stdint.h>
-#include <stdlib.h>
-#include <string.h>
-#include <unistd.h>
-#include <stdio.h>
-#include <dirent.h>
-#include <time.h>
+// #include <sys/types.h>
+// #include <sys/stat.h>
+// #include <errno.h>
+// #include <stdint.h>
+// #include <stdlib.h>
+// #include <string.h>
+// #include <unistd.h>
+// #include <stdio.h>
+// #include <dirent.h>
+// #include <time.h>
 
 /* Appearance of the table is controlled by style sheet *ONLY*,
  * formatting code uses <TAG class=CLASS> to apply style

@@ -3,9 +3,9 @@
  * Released under the terms of the GNU GPL v2.0.
  */
 
-#include <qlistview.h>
+// #include <qlistview.h>
 #if QT_VERSION >= 300
-#include <qsettings.h>
+// #include <qsettings.h>
 #else
 class QSettings { };
 #endif

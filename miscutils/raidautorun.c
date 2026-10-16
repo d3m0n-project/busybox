@@ -29,8 +29,8 @@
 
 #include "libbb.h"
 
-#include <linux/major.h>
-#include <linux/raid/md_u.h>
+// #include <linux/major.h>
+// #include <linux/raid/md_u.h>
 
 int raidautorun_main(int argc, char **argv) MAIN_EXTERNALLY_VISIBLE;
 int raidautorun_main(int argc UNUSED_PARAM, char **argv)

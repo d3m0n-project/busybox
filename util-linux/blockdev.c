@@ -32,7 +32,7 @@
 
 
 #include "libbb.h"
-#include <linux/fs.h>
+// #include <linux/fs.h>
 
 enum {
 	ARG_NONE   = 0,

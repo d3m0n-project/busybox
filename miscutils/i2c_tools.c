@@ -62,8 +62,8 @@
 #include "libbb.h"
 #include "common_bufsiz.h"
 
-#include <linux/i2c.h>
-#include <linux/i2c-dev.h>
+// #include <linux/i2c.h>
+// #include <linux/i2c-dev.h>
 
 #define I2CDUMP_NUM_REGS		256
 

@@ -134,7 +134,7 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 //usage:     "\n			a SIGXCPU after N seconds"
 
 #include "libbb.h"
-#include <sys/resource.h> /* getrlimit */
+// #include <sys/resource.h> /* getrlimit */
 
 /*
 Five applets here: chpst, envdir, envuidgid, setuidgid, softlimit.

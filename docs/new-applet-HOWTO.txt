@@ -24,7 +24,7 @@ as the first include file in your applet.
 For a new applet mu, here is the code that would go in mu.c:
 
 (libbb.h already includes most usual header files. You do not need
-#include <stdio.h> etc...)
+// #include <stdio.h> etc...)
 
 
 ----begin example code------

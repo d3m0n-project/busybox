@@ -36,7 +36,7 @@
 //usage:       "Adjust filesystem options on ext[23] filesystems"
 
 #include "libbb.h"
-#include <linux/fs.h>
+// #include <linux/fs.h>
 #include "bb_e2fs_defs.h"
 
 // storage helpers

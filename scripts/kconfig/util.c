@@ -5,7 +5,7 @@
  * Released under the terms of the GNU GPL v2.0.
  */
 
-#include <string.h>
+// #include <string.h>
 #include "lkc.h"
 
 /* file already present in list? If not add it */

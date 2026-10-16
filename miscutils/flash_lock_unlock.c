@@ -35,7 +35,7 @@
 //usage:       "Unlock an MTD device"
 
 #include "libbb.h"
-#include <mtd/mtd-user.h>
+// #include <mtd/mtd-user.h>
 
 int flash_lock_unlock_main(int argc, char **argv) MAIN_EXTERNALLY_VISIBLE;
 int flash_lock_unlock_main(int argc UNUSED_PARAM, char **argv)

@@ -43,13 +43,13 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 //usage:#define runsv_full_usage "\n\n"
 //usage:       "Start and monitor a service and optionally an appendant log service"
 
-#include <sys/file.h>
+// #include <sys/file.h>
 #include "libbb.h"
 #include "common_bufsiz.h"
 #include "runit_lib.h"
 
 #if ENABLE_MONOTONIC_SYSCALL
-#include <sys/syscall.h>
+// #include <sys/syscall.h>
 
 /* libc has incredibly messy way of doing this,
  * typically requiring -lrt. We just skip all this mess */

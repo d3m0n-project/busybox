@@ -33,10 +33,10 @@
 //usage:     "\n	-s SRC_IP	Sender IP address"
 //usage:     "\n	DST_IP		Target IP address"
 
-#include <arpa/inet.h>
-#include <net/if.h>
-#include <netinet/ether.h>
-#include <netpacket/packet.h>
+// #include <arpa/inet.h>
+// #include <net/if.h>
+// #include <netinet/ether.h>
+// #include <netpacket/packet.h>
 
 #include "libbb.h"
 #include "common_bufsiz.h"

@@ -24,9 +24,9 @@
  *    The previous version did not allow 4-digit octals.
  */
 
-#include <stdio.h>
-#include <string.h>
-#include <limits.h>
+// #include <stdio.h>
+// #include <string.h>
+// #include <limits.h>
 
 #define WANT_HEX_ESCAPES 1
 

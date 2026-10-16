@@ -5,12 +5,12 @@
  *
  * Licensed under GPLv2 or later, see file LICENSE in this source tree.
  */
-#include <net/if.h>
+// #include <net/if.h>
 /*#include <net/if_packet.h> - not needed? */
-#include <netpacket/packet.h>
-#include <netinet/if_ether.h>
+// #include <netpacket/packet.h>
+// #include <netinet/if_ether.h>
 
-#include <linux/if_vlan.h>
+// #include <linux/if_vlan.h>
 #include "ip_common.h"  /* #include "libbb.h" is inside */
 #include "rt_names.h"
 #include "utils.h"

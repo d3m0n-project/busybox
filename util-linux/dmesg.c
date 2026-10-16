@@ -55,7 +55,7 @@
 //usage:     "\n	-s SIZE		Buffer size"
 //usage:     "\n	-r		Print raw message buffer"
 
-#include <sys/klog.h>
+// #include <sys/klog.h>
 #include "libbb.h"
 
 int dmesg_main(int argc, char **argv) MAIN_EXTERNALLY_VISIBLE;

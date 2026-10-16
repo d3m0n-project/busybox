@@ -49,7 +49,7 @@
 #include "libbb.h"
 #include "common_bufsiz.h"
 /* After libbb.h, since it needs sys/types.h on some systems */
-#include <sys/utsname.h>
+// #include <sys/utsname.h>
 
 #ifdef __linux__
 # include <sys/mount.h>

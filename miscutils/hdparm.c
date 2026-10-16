@@ -127,8 +127,8 @@
 #include "libbb.h"
 #include "common_bufsiz.h"
 /* must be _after_ libbb.h: */
-#include <linux/hdreg.h>
-#include <sys/mount.h>
+// #include <linux/hdreg.h>
+// #include <sys/mount.h>
 #if !defined(BLKGETSIZE64)
 # define BLKGETSIZE64 _IOR(0x12,114,size_t)
 #endif

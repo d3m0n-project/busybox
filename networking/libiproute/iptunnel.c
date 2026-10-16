@@ -11,10 +11,10 @@
  * Phil Karn <karn@ka9q.ampr.org>       990408: "pmtudisc" flag
  */
 
-#include <netinet/ip.h>
-#include <net/if.h>
-#include <net/if_arp.h>
-#include <asm/types.h>
+// #include <netinet/ip.h>
+// #include <net/if.h>
+// #include <net/if_arp.h>
+// #include <asm/types.h>
 
 #ifndef __constant_htons
 #define __constant_htons htons

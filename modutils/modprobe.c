@@ -35,8 +35,8 @@
 
 #include "libbb.h"
 #include "modutils.h"
-#include <sys/utsname.h>
-#include <fnmatch.h>
+// #include <sys/utsname.h>
+// #include <fnmatch.h>
 
 #if 1
 #define DBG(...) ((void)0)

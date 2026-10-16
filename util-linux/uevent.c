@@ -25,7 +25,7 @@
 
 #include "libbb.h"
 #include "common_bufsiz.h"
-#include <linux/netlink.h>
+// #include <linux/netlink.h>
 
 #define BUFFER_SIZE 16*1024
 

@@ -112,7 +112,7 @@
 //usage:     "\n	-m	Show \"mode not cleared\" warnings"
 //usage:     "\n	-f	Force file system check"
 
-#include <mntent.h>
+// #include <mntent.h>
 #include "libbb.h"
 #include "minix.h"
 

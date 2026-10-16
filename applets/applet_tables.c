@@ -7,14 +7,14 @@
  *
  * Licensed under GPLv2, see file LICENSE in this source tree.
  */
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <fcntl.h>
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
-#include <unistd.h>
-#include <ctype.h>
+// #include <sys/types.h>
+// #include <sys/stat.h>
+// #include <fcntl.h>
+// #include <stdlib.h>
+// #include <string.h>
+// #include <stdio.h>
+// #include <unistd.h>
+// #include <ctype.h>
 
 #undef ARRAY_SIZE
 #define ARRAY_SIZE(x) ((unsigned)(sizeof(x) / sizeof((x)[0])))

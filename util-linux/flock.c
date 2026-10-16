@@ -22,7 +22,7 @@
 //usage:     "\n	-u	Unlock FD"
 //usage:     "\n	-n	Fail rather than wait"
 
-#include <sys/file.h>
+// #include <sys/file.h>
 #include "libbb.h"
 
 int flock_main(int argc, char **argv) MAIN_EXTERNALLY_VISIBLE;

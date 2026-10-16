@@ -47,7 +47,7 @@
  * -c/--cpu-list  (specify CPUs via "1,3,5-7")
  */
 
-#include <sched.h>
+// #include <sched.h>
 #include "libbb.h"
 
 #if ENABLE_FEATURE_TASKSET_FANCY

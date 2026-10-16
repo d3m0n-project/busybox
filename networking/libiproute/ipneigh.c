@@ -11,8 +11,8 @@
 #include "common_bufsiz.h"
 #include "rt_names.h"
 #include "utils.h"
-#include <linux/neighbour.h>
-#include <net/if_arp.h>
+// #include <linux/neighbour.h>
+// #include <net/if_arp.h>
 
 //static int xshow_stats = 3;
 enum { xshow_stats = 3 };

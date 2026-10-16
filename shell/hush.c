@@ -301,12 +301,12 @@
     )
 # include <malloc.h>   /* for malloc_trim */
 #endif
-#include <glob.h>
+// #include <glob.h>
 /* #include <dmalloc.h> */
 #if ENABLE_HUSH_CASE
 # include <fnmatch.h>
 #endif
-#include <sys/utsname.h> /* for setting $HOSTNAME */
+// #include <sys/utsname.h> /* for setting $HOSTNAME */
 
 #include "busybox.h"  /* for APPLET_IS_NOFORK/NOEXEC */
 #include "unicode.h"

@@ -41,7 +41,7 @@
 //usage:     "\n	-t	Close tray"
 //usage:     "\n	-T	Open/close tray (toggle)"
 
-#include <sys/mount.h>
+// #include <sys/mount.h>
 #include "libbb.h"
 #if ENABLE_FEATURE_EJECT_SCSI
 /* Must be after libbb.h: they need size_t */

@@ -11,7 +11,7 @@
 #ifndef BB_REGEX_H
 #define BB_REGEX_H 1
 
-#include <regex.h>
+// #include <regex.h>
 
 PUSH_AND_SET_FUNCTION_VISIBILITY_TO_HIDDEN
 

@@ -76,8 +76,8 @@
 //usage:       "Filesystem          512-blocks      Used Available Capacity Mounted on\n"
 //usage:       "/dev/sda3             17381728  17107080    274648      98% /\n"
 
-#include <mntent.h>
-#include <sys/vfs.h>
+// #include <mntent.h>
+// #include <sys/vfs.h>
 #include "libbb.h"
 #include "unicode.h"
 

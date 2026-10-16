@@ -59,7 +59,7 @@
 //usage:     "\n	-F		Don't fork before exec'ing PROG"
 //usage:#endif
 
-#include <sched.h>
+// #include <sched.h>
 #ifndef CLONE_NEWUTS
 # define CLONE_NEWUTS  0x04000000
 #endif

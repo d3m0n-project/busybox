@@ -5,13 +5,13 @@
 
 #define _XOPEN_SOURCE 700
 
-#include <ctype.h>
-#include <stdlib.h>
-#include <stdio.h>
-#include <string.h>
-#include <unistd.h>
-#include <time.h>
-#include <sys/stat.h>
+// #include <ctype.h>
+// #include <stdlib.h>
+// #include <stdio.h>
+// #include <string.h>
+// #include <unistd.h>
+// #include <time.h>
+// #include <sys/stat.h>
 
 #define LKC_DIRECT_LINK
 #include "lkc.h"

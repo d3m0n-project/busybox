@@ -70,8 +70,8 @@
 //usage:       "Connect to telnet server"
 //usage:#endif
 
-#include <arpa/telnet.h>
-#include <netinet/in.h>
+// #include <arpa/telnet.h>
+// #include <netinet/in.h>
 #include "libbb.h"
 #include "common_bufsiz.h"
 

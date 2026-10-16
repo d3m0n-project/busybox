@@ -61,7 +61,7 @@
 
 #include "libbb.h"
 #include "common_bufsiz.h"
-#include <syslog.h>
+// #include <syslog.h>
 
 /* glibc frees previous setenv'ed value when we do next setenv()
  * of the same variable. uclibc does not do this! */

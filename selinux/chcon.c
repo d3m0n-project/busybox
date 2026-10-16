@@ -55,7 +55,7 @@
 //usage:     "\n	-R	Recurse"
 //usage:	)
 
-#include <selinux/context.h>
+// #include <selinux/context.h>
 
 #include "libbb.h"
 

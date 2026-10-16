@@ -40,7 +40,7 @@
 //usage:     "\n	-u	Process user names"
 
 #include "libbb.h"
-#include <sys/resource.h>
+// #include <sys/resource.h>
 
 void BUG_bad_PRIO_PROCESS(void);
 void BUG_bad_PRIO_PGRP(void);

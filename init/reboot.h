@@ -3,7 +3,7 @@
  * shared between init.c and halt.c.
  */
 
-#include <sys/reboot.h>
+// #include <sys/reboot.h>
 
 #ifndef RB_HALT_SYSTEM
 # if defined(__linux__)

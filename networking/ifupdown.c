@@ -141,8 +141,8 @@
 #include "libbb.h"
 #include "common_bufsiz.h"
 /* After libbb.h, since it needs sys/types.h on some systems */
-#include <sys/utsname.h>
-#include <fnmatch.h>
+// #include <sys/utsname.h>
+// #include <fnmatch.h>
 
 #define MAX_OPT_DEPTH 10
 

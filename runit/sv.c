@@ -180,7 +180,7 @@ Exit Codes
 //kbuild:lib-$(CONFIG_SV) += sv.o
 //kbuild:lib-$(CONFIG_SVC) += sv.o
 
-#include <sys/file.h>
+// #include <sys/file.h>
 #include "libbb.h"
 #include "common_bufsiz.h"
 #include "runit_lib.h"

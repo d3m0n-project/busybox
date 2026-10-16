@@ -44,9 +44,9 @@
 
 #include "libbb.h"
 
-#include <linux/hdreg.h> /* HDIO_GETGEO */
-#include <linux/fd.h>    /* FDGETPRM */
-#include <sys/mount.h>   /* BLKSSZGET */
+// #include <linux/hdreg.h> /* HDIO_GETGEO */
+// #include <linux/fd.h>    /* FDGETPRM */
+// #include <sys/mount.h>   /* BLKSSZGET */
 #if !defined(BLKSSZGET)
 # define BLKSSZGET _IO(0x12, 104)
 #endif

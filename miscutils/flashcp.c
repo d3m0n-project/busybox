@@ -24,7 +24,7 @@
 //usage:     "\n	-v	Verbose"
 
 #include "libbb.h"
-#include <mtd/mtd-user.h>
+// #include <mtd/mtd-user.h>
 
 /* If 1, simulates "flashing" by writing to existing regular file */
 #define MTD_DEBUG 0

@@ -18,7 +18,7 @@
 //config:	  Per-processor statistics
 
 #include "libbb.h"
-#include <sys/utsname.h>  /* struct utsname */
+// #include <sys/utsname.h>  /* struct utsname */
 
 //#define debug(fmt, ...) fprintf(stderr, fmt, ## __VA_ARGS__)
 #define debug(fmt, ...) ((void)0)

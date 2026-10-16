@@ -20,7 +20,7 @@
 //kbuild:lib-$(CONFIG_SETSERIAL) += setserial.o
 
 #include "libbb.h"
-#include <assert.h>
+// #include <assert.h>
 
 #ifndef PORT_UNKNOWN
 # define PORT_UNKNOWN            0

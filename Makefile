@@ -235,7 +235,7 @@ export KBUILD_CHECKSRC KBUILD_SRC KBUILD_EXTMOD
 # $(quiet) to choose other forms of output instead, e.g.
 #
 #         quiet_cmd_cc_o_c = Compiling $(RELDIR)/$@
-#         cmd_cc_o_c       = $(CC) $(c_flags) -c -o $@ $<
+#         cmd_cc_o_c       = d3c $(c_flags) -c -o $@ $<
 #
 # If $(quiet) is empty, the whole command will be printed.
 # If it is set to "quiet_", only the short version will be printed.
@@ -271,8 +271,8 @@ export quiet Q KBUILD_VERBOSE
 # Look for make include files relative to root of kernel src
 MAKEFLAGS += --include-dir=$(srctree)
 
-HOSTCC  	= gcc
-HOSTCXX  	= g++
+HOSTCC  	= d3c
+HOSTCXX  	= d3c
 HOSTCFLAGS	:=
 HOSTCXXFLAGS	:=
 # We need some generic definitions
@@ -290,8 +290,8 @@ MAKEFLAGS += -rR
 
 AS		= $(CROSS_COMPILE)as
 CC		= $(CROSS_COMPILE)gcc
-LD		= $(CC) -nostdlib
-CPP		= $(CC) -E
+LD		= d3c -nostdlib -w
+CPP		= d3c -E -w
 AR		= $(CROSS_COMPILE)ar
 NM		= $(CROSS_COMPILE)nm
 STRIP		= $(CROSS_COMPILE)strip
@@ -435,7 +435,7 @@ ifeq ($(config-targets),1)
 export KBUILD_DEFCONFIG
 
 config: scripts_basic outputmakefile gen_build_files FORCE
-	$(Q)mkdir -p include
+	$(Q$)mkdir -p include
 	$(Q)$(MAKE) $(build)=scripts/kconfig $@
 	$(Q)$(MAKE) -C $(srctree) KBUILD_SRC= .kernelrelease
 
@@ -534,7 +534,7 @@ all: busybox doc
 -include $(srctree)/arch/$(ARCH)/Makefile
 
 # arch Makefile may override CC so keep this after arch Makefile is included
-#bbox# NOSTDINC_FLAGS += -nostdinc -isystem $(shell $(CC) -print-file-name=include)
+#bbox# NOSTDINC_FLAGS += -nostdinc -isystem $(shell d3c -print-file-name=include)
 CHECKFLAGS += $(NOSTDINC_FLAGS)
 
 # Default kernel image to build when no specific target is given.
@@ -605,8 +605,8 @@ busybox-all  := $(core-y) $(libs-y)
 quiet_cmd_busybox__ ?= LINK    $@
       cmd_busybox__ ?= $(srctree)/scripts/trylink \
       "$@" \
-      "$(CC)" \
-      "$(CFLAGS) $(CFLAGS_busybox)" \
+      "d3c" \
+      "$(CFLAGS) -w $(CFLAGS_busybox)" \
       "$(LDFLAGS) $(EXTRA_LDFLAGS)" \
       "$(core-y)" \
       "$(libs-y)" \
@@ -1296,12 +1296,12 @@ quiet_cmd_rmfiles = $(if $(wildcard $(rm-files)),CLEAN   $(wildcard $(rm-files))
       cmd_rmfiles = rm -f $(rm-files)
 
 
-a_flags = -Wp,-MD,$(depfile) $(AFLAGS) $(AFLAGS_KERNEL) \
+a_flags = -w -Wp,-MD,$(depfile) $(AFLAGS) $(AFLAGS_KERNEL) \
 	  $(NOSTDINC_FLAGS) $(CPPFLAGS) \
 	  $(modkern_aflags) $(EXTRA_AFLAGS) $(AFLAGS_$(*F).o)
 
 quiet_cmd_as_o_S = AS      $@
-cmd_as_o_S       = $(CC) $(a_flags) -c -o $@ $<
+cmd_as_o_S       = d3c $(a_flags) -c -o $@ $<
 
 # read all saved command lines
 

@@ -74,10 +74,10 @@
 //usage:       "$ nameif -c /etc/my_mactab_file\n"
 
 #include "libbb.h"
-#include <syslog.h>
-#include <net/if.h>
-#include <netinet/ether.h>
-#include <linux/sockios.h>
+// #include <syslog.h>
+// #include <net/if.h>
+// #include <netinet/ether.h>
+// #include <linux/sockios.h>
 
 #ifndef IFNAMSIZ
 #define IFNAMSIZ 16

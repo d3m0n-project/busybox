@@ -4,8 +4,8 @@
  * Licensed under GPLv2, see file LICENSE in this source tree.
  */
 #include "libbb.h"
-#include <netinet/tcp.h>
-#include <linux/fs.h>
+// #include <netinet/tcp.h>
+// #include <linux/fs.h>
 
 //applet:IF_NBDCLIENT(APPLET_ODDNAME(nbd-client, nbdclient, BB_DIR_USR_SBIN, BB_SUID_DROP, nbdclient))
 

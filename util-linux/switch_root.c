@@ -37,8 +37,8 @@
 //usage:       "execute NEW_INIT. PID must be 1. NEW_ROOT must be a mountpoint.\n"
 //usage:     "\n	-c DEV	Reopen stdio to DEV after switch"
 
-#include <sys/vfs.h>
-#include <sys/mount.h>
+// #include <sys/vfs.h>
+// #include <sys/mount.h>
 #include "libbb.h"
 // Make up for header deficiencies
 #ifndef RAMFS_MAGIC

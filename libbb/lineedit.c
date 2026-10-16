@@ -2848,7 +2848,7 @@ int FAST_FUNC read_line_input(const char* prompt, char* command, int maxsize)
 
 #ifdef TEST
 
-#include <locale.h>
+// #include <locale.h>
 
 const char *applet_name = "debug stuff usage";
 

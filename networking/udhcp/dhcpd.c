@@ -38,8 +38,8 @@
 //usage:     "\n	-P N	Use port N (default 67)"
 //usage:	)
 
-#include <netinet/ether.h>
-#include <syslog.h>
+// #include <netinet/ether.h>
+// #include <syslog.h>
 #include "common.h"
 #include "dhcpc.h"
 #include "dhcpd.h"

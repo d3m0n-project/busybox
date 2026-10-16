@@ -117,13 +117,13 @@
 
 #include "libbb.h"
 #include "common_bufsiz.h"
-#include <syslog.h>
+// #include <syslog.h>
 
 #if DEBUG
 # define TELCMDS
 # define TELOPTS
 #endif
-#include <arpa/telnet.h>
+// #include <arpa/telnet.h>
 
 
 struct tsession {

@@ -157,23 +157,23 @@
 #include "libbb.h"
 #define SYSLOG_NAMES
 #define SYSLOG_NAMES_CONST
-#include <syslog.h>
+// #include <syslog.h>
 */
 #ifndef _PATH_LOG
 #define _PATH_LOG	"/dev/log"
 #endif
 
-#include <sys/un.h>
-#include <sys/uio.h>
+// #include <sys/un.h>
+// #include <sys/uio.h>
 
 #if ENABLE_FEATURE_REMOTE_LOG
-#include <netinet/in.h>
+// #include <netinet/in.h>
 #endif
 
 #if ENABLE_FEATURE_IPC_SYSLOG
-#include <sys/ipc.h>
-#include <sys/sem.h>
-#include <sys/shm.h>
+// #include <sys/ipc.h>
+// #include <sys/sem.h>
+// #include <sys/shm.h>
 #endif
 
 

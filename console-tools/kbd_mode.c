@@ -30,7 +30,7 @@
 //usage:     "\n	-C TTY	Affect TTY instead of /dev/tty"
 
 #include "libbb.h"
-#include <linux/kd.h>
+// #include <linux/kd.h>
 
 int kbd_mode_main(int argc, char **argv) MAIN_EXTERNALLY_VISIBLE;
 int kbd_mode_main(int argc UNUSED_PARAM, char **argv)

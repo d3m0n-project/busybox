@@ -26,7 +26,7 @@
 //usage:     "\n	-l LBL	Volume label"
 
 #include "libbb.h"
-#include <linux/fs.h>
+// #include <linux/fs.h>
 
 char BUG_wrong_field_size(void);
 #define STORE_LE(field, value) \

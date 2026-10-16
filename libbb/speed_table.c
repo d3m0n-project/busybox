@@ -153,7 +153,7 @@ speed_t FAST_FUNC tty_value_to_baud(unsigned int value)
 
 #if 0
 /* testing code */
-#include <stdio.h>
+// #include <stdio.h>
 
 int main(void)
 {

@@ -34,7 +34,7 @@
 //usage:       "Name:       debian\n"
 //usage:       "Address:    127.0.0.1\n"
 
-#include <resolv.h>
+// #include <resolv.h>
 #include "libbb.h"
 
 /*

@@ -161,10 +161,10 @@
 
 #define JOBS ENABLE_ASH_JOB_CONTROL
 
-#include <setjmp.h>
-#include <fnmatch.h>
-#include <sys/times.h>
-#include <sys/utsname.h> /* for setting $HOSTNAME */
+// #include <setjmp.h>
+// #include <fnmatch.h>
+// #include <sys/times.h>
+// #include <sys/utsname.h> /* for setting $HOSTNAME */
 #include "busybox.h" /* for applet_names */
 
 /* So far, all bash compat is controlled by one config option */

@@ -56,8 +56,8 @@
 //usage:       "# acpid -e /proc/acpi/event\n"
 
 #include "libbb.h"
-#include <syslog.h>
-#include <linux/input.h>
+// #include <syslog.h>
+// #include <linux/input.h>
 
 #ifndef EV_SW
 # define EV_SW         0x05

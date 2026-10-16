@@ -13,16 +13,16 @@
 #include "lkc.h"
 #include "images.c"
 
-#include <glade/glade.h>
-#include <gtk/gtk.h>
-#include <glib.h>
-#include <gdk/gdkkeysyms.h>
+// #include <glade/glade.h>
+// #include <gtk/gtk.h>
+// #include <glib.h>
+// #include <gdk/gdkkeysyms.h>
 
-#include <stdio.h>
-#include <string.h>
-#include <unistd.h>
-#include <time.h>
-#include <stdlib.h>
+// #include <stdio.h>
+// #include <string.h>
+// #include <unistd.h>
+// #include <time.h>
+// #include <stdlib.h>
 
 //#define DEBUG
 

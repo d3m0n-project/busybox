@@ -64,8 +64,8 @@
 
 #include "libbb.h"
 #include "common_bufsiz.h"
-#include <syslog.h>
-#include <netinet/tcp.h>
+// #include <syslog.h>
+// #include <netinet/tcp.h>
 
 #define FTP_DATACONN            150
 #define FTP_NOOPOK              200

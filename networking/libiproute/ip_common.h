@@ -3,14 +3,14 @@
 #define IP_COMMON_H 1
 
 #include "libbb.h"
-#include <asm/types.h>
-#include <linux/netlink.h>
-#include <linux/rtnetlink.h>
+// #include <asm/types.h>
+// #include <linux/netlink.h>
+// #include <linux/rtnetlink.h>
 #if !defined IFA_RTA
-#include <linux/if_addr.h>
+// #include <linux/if_addr.h>
 #endif
 #if !defined IFLA_RTA
-#include <linux/if_link.h>
+// #include <linux/if_link.h>
 #endif
 
 PUSH_AND_SET_FUNCTION_VISIBILITY_TO_HIDDEN

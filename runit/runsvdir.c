@@ -55,7 +55,7 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 //usage:     "\n	-P		Put each runsv in a new session"
 //usage:     "\n	-s SCRIPT	Run SCRIPT <signo> after signal is processed"
 
-#include <sys/file.h>
+// #include <sys/file.h>
 #include "libbb.h"
 #include "common_bufsiz.h"
 #include "runit_lib.h"

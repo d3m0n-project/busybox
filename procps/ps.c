@@ -145,7 +145,7 @@ static unsigned long get_uptime(void)
 
 #if ENABLE_DESKTOP
 
-#include <sys/times.h> /* for times() */
+// #include <sys/times.h> /* for times() */
 #ifndef AT_CLKTCK
 # define AT_CLKTCK 17
 #endif

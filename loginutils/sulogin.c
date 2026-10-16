@@ -23,7 +23,7 @@
 //usage:     "\n	-t N	Timeout"
 
 #include "libbb.h"
-#include <syslog.h>
+// #include <syslog.h>
 
 int sulogin_main(int argc, char **argv) MAIN_EXTERNALLY_VISIBLE;
 int sulogin_main(int argc UNUSED_PARAM, char **argv)

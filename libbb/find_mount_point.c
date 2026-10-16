@@ -8,7 +8,7 @@
  */
 
 #include "libbb.h"
-#include <mntent.h>
+// #include <mntent.h>
 
 /*
  * Given a block device, find the mount table entry if that block device

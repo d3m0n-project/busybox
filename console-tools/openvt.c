@@ -31,7 +31,7 @@
 //usage:#define openvt_example_usage
 //usage:       "openvt 2 /bin/ash\n"
 
-#include <linux/vt.h>
+// #include <linux/vt.h>
 #include "libbb.h"
 
 /* "Standard" openvt's man page (we do not support all of this):

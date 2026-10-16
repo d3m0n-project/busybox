@@ -44,9 +44,9 @@
 
 #include "libbb.h"
 #include "common_bufsiz.h"
-#include <sys/ipc.h>
-#include <sys/sem.h>
-#include <sys/shm.h>
+// #include <sys/ipc.h>
+// #include <sys/sem.h>
+// #include <sys/shm.h>
 
 #define DEBUG 0
 

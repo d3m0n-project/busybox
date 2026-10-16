@@ -45,7 +45,7 @@
 //kbuild:lib-$(CONFIG_GETTY) += getty.o
 
 #include "libbb.h"
-#include <syslog.h>
+// #include <syslog.h>
 #ifndef IUCLC
 # define IUCLC 0
 #endif

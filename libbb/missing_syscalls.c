@@ -7,7 +7,7 @@
 //kbuild:lib-y += missing_syscalls.o
 
 /*#include <linux/timex.h> - for struct timex, but may collide with <time.h> */
-#include <sys/syscall.h>
+// #include <sys/syscall.h>
 #include "libbb.h"
 
 #if defined(ANDROID) || defined(__ANDROID__)

@@ -8,7 +8,7 @@
  * Authors: Alexey Kuznetsov, <kuznet@ms2.inr.ac.ru>
  */
 
-#include <net/if_arp.h>
+// #include <net/if_arp.h>
 
 #include "libbb.h"
 #include "rt_names.h"

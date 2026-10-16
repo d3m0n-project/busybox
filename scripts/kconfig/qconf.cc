@@ -3,22 +3,22 @@
  * Released under the terms of the GNU GPL v2.0.
  */
 
-#include <qapplication.h>
-#include <qmainwindow.h>
-#include <qtoolbar.h>
-#include <qvbox.h>
-#include <qsplitter.h>
-#include <qlistview.h>
-#include <qtextview.h>
-#include <qlineedit.h>
-#include <qmenubar.h>
-#include <qmessagebox.h>
-#include <qaction.h>
-#include <qheader.h>
-#include <qfiledialog.h>
-#include <qregexp.h>
+// #include <qapplication.h>
+// #include <qmainwindow.h>
+// #include <qtoolbar.h>
+// #include <qvbox.h>
+// #include <qsplitter.h>
+// #include <qlistview.h>
+// #include <qtextview.h>
+// #include <qlineedit.h>
+// #include <qmenubar.h>
+// #include <qmessagebox.h>
+// #include <qaction.h>
+// #include <qheader.h>
+// #include <qfiledialog.h>
+// #include <qregexp.h>
 
-#include <stdlib.h>
+// #include <stdlib.h>
 
 #include "lkc.h"
 #include "qconf.h"

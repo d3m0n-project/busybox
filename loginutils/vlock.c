@@ -38,7 +38,7 @@
 #include "libbb.h"
 
 #ifdef __linux__
-#include <sys/vt.h>
+// #include <sys/vt.h>
 
 static void release_vt(int signo UNUSED_PARAM)
 {

@@ -39,7 +39,7 @@
 
 #include "libbb.h"
 /* After libbb.h, since it needs sys/types.h on some systems */
-#include <sys/utsname.h>
+// #include <sys/utsname.h>
 #include "rtc_.h"
 
 /* diff code is disabled: it's not sys/hw clock diff, it's some useless

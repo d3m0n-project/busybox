@@ -49,7 +49,7 @@
 
 #include "libbb.h"
 #include "xregex.h"
-#include <math.h>
+// #include <math.h>
 
 /* This is a NOEXEC applet. Be very careful! */
 

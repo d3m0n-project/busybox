@@ -30,7 +30,7 @@
 
 #include "libbb.h"
 #if ENABLE_SELINUX
-#include <selinux/selinux.h>  /* for setexeccon  */
+// #include <selinux/selinux.h>  /* for setexeccon  */
 #endif
 
 #if ENABLE_SELINUX

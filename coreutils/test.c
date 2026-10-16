@@ -76,7 +76,7 @@
 //usage:       "1\n"
 
 #include "libbb.h"
-#include <setjmp.h>
+// #include <setjmp.h>
 
 /* This is a NOFORK applet. Be very careful! */
 

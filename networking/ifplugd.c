@@ -44,9 +44,9 @@
 #include "libbb.h"
 
 #include "fix_u32.h"
-#include <linux/if.h>
-#include <linux/mii.h>
-#include <linux/ethtool.h>
+// #include <linux/if.h>
+// #include <linux/mii.h>
+// #include <linux/ethtool.h>
 #ifdef HAVE_NET_ETHERNET_H
 /* musl breakage:
  * In file included from /usr/include/net/ethernet.h:10,
@@ -60,13 +60,13 @@
  */
 /* # include <net/ethernet.h> */
 #endif
-#include <linux/netlink.h>
-#include <linux/rtnetlink.h>
-#include <linux/sockios.h>
-#include <syslog.h>
+// #include <linux/netlink.h>
+// #include <linux/rtnetlink.h>
+// #include <linux/sockios.h>
+// #include <syslog.h>
 
 #define __user
-#include <linux/wireless.h>
+// #include <linux/wireless.h>
 
 #ifndef ETH_ALEN
 # define ETH_ALEN  6

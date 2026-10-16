@@ -34,9 +34,9 @@
 
 #include "libbb.h"
 /* After libbb.h, since it needs sys/types.h on some systems */
-#include <sys/utsname.h> /* uname() */
-#include <fnmatch.h>
-#include <sys/syscall.h>
+// #include <sys/utsname.h> /* uname() */
+// #include <fnmatch.h>
+// #include <sys/syscall.h>
 
 #define init_module(mod, len, opts) syscall(__NR_init_module, mod, len, opts)
 #define delete_module(mod, flags) syscall(__NR_delete_module, mod, flags)

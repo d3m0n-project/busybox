@@ -57,12 +57,12 @@
 
 #include "libbb.h"
 #include "common_bufsiz.h"
-#include <netinet/ether.h>
-#include <net/if.h>
-#include <net/if_arp.h>
-#include <linux/sockios.h>
+// #include <netinet/ether.h>
+// #include <net/if.h>
+// #include <net/if_arp.h>
+// #include <linux/sockios.h>
 
-#include <syslog.h>
+// #include <syslog.h>
 
 /* We don't need more than 32 bits of the counter */
 #define MONOTONIC_US() ((unsigned)monotonic_us())

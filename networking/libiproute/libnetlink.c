@@ -8,8 +8,8 @@
  * Authors: Alexey Kuznetsov, <kuznet@ms2.inr.ac.ru>
  */
 
-#include <sys/socket.h>
-#include <sys/uio.h>
+// #include <sys/socket.h>
+// #include <sys/uio.h>
 
 #include "libbb.h"
 #include "libnetlink.h"

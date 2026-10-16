@@ -60,7 +60,7 @@
 
 #include "libbb.h"
 #include "common_bufsiz.h"
-#include <linux/fb.h>
+// #include <linux/fb.h>
 
 /* If you want logging messages on /tmp/fbsplash.log... */
 #define DEBUG 0

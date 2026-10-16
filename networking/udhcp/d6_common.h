@@ -7,7 +7,7 @@
 #ifndef UDHCP_D6_COMMON_H
 #define UDHCP_D6_COMMON_H 1
 
-#include <netinet/ip6.h>
+// #include <netinet/ip6.h>
 
 PUSH_AND_SET_FUNCTION_VISIBILITY_TO_HIDDEN
 

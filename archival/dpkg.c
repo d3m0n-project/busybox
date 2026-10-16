@@ -68,7 +68,7 @@
 //usage:	)
 
 #include "libbb.h"
-#include <fnmatch.h>
+// #include <fnmatch.h>
 #include "bb_archive.h"
 
 /* note: if you vary hash_prime sizes be aware,

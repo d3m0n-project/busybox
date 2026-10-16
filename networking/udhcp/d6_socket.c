@@ -6,7 +6,7 @@
  */
 #include "common.h"
 #include "d6_common.h"
-#include <net/if.h>
+// #include <net/if.h>
 
 int FAST_FUNC d6_listen_socket(int port, const char *inf)
 {

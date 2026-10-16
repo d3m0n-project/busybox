@@ -50,7 +50,7 @@
 #include "libiproute/utils.h"
 #include "libiproute/ip_common.h"
 #include "libiproute/rt_names.h"
-#include <linux/pkt_sched.h> /* for the TC_H_* macros */
+// #include <linux/pkt_sched.h> /* for the TC_H_* macros */
 
 #define parse_rtattr_nested(tb, max, rta) \
 	(parse_rtattr((tb), (max), RTA_DATA(rta), RTA_PAYLOAD(rta)))

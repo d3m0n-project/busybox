@@ -25,8 +25,8 @@
 //usage:     "\n	-c	Class. 1:realtime 2:best-effort 3:idle"
 //usage:     "\n	-n	Priority"
 
-#include <sys/syscall.h>
-#include <asm/unistd.h>
+// #include <sys/syscall.h>
+// #include <asm/unistd.h>
 #include "libbb.h"
 
 static int ioprio_set(int which, int who, int ioprio)

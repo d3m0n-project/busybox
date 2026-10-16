@@ -45,9 +45,9 @@
 //usage:       "# tunctl\n"
 //usage:       "# tunctl -d tun0\n"
 
-#include <netinet/in.h>
-#include <net/if.h>
-#include <linux/if_tun.h>
+// #include <netinet/in.h>
+// #include <net/if.h>
+// #include <linux/if_tun.h>
 #include "libbb.h"
 
 /* TUNSETGROUP appeared in 2.6.23 */

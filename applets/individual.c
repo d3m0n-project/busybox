@@ -7,8 +7,8 @@
 
 const char *applet_name;
 
-#include <stdio.h>
-#include <stdlib.h>
+// #include <stdio.h>
+// #include <stdlib.h>
 #include "usage.h"
 
 int main(int argc, char **argv)

@@ -67,8 +67,8 @@
 //usage:	)
 
 #include "libbb.h"
-#include <linux/sockios.h>
-#include <net/if.h>
+// #include <linux/sockios.h>
+// #include <net/if.h>
 
 #ifndef SIOCBRADDBR
 # define SIOCBRADDBR BRCTL_ADD_BRIDGE

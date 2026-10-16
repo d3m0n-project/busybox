@@ -18,9 +18,9 @@
 /* #define XZ_DEC_ARMTHUMB */
 /* #define XZ_DEC_SPARC */
 
-#include <stdbool.h>
-#include <stdlib.h>
-#include <string.h>
+// #include <stdbool.h>
+// #include <stdlib.h>
+// #include <string.h>
 
 #include "xz.h"
 

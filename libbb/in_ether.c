@@ -8,8 +8,8 @@
 //kbuild:lib-$(CONFIG_IFENSLAVE) += in_ether.o
 
 #include "libbb.h"
-#include <net/if_arp.h>
-#include <net/ethernet.h>
+// #include <net/if_arp.h>
+// #include <net/ethernet.h>
 
 /* Convert Ethernet address from "XX[:]XX[:]XX[:]XX[:]XX[:]XX" to sockaddr.
  * Return nonzero on error.

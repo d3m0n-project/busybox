@@ -102,17 +102,17 @@
  * those files will have correct dependencies.
  */
 
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <sys/mman.h>
-#include <unistd.h>
-#include <fcntl.h>
-#include <string.h>
-#include <stdlib.h>
-#include <stdio.h>
-#include <limits.h>
-#include <ctype.h>
-#include <arpa/inet.h>
+// #include <sys/types.h>
+// #include <sys/stat.h>
+// #include <sys/mman.h>
+// #include <unistd.h>
+// #include <fcntl.h>
+// #include <string.h>
+// #include <stdlib.h>
+// #include <stdio.h>
+// #include <limits.h>
+// #include <ctype.h>
+// #include <arpa/inet.h>
 //bbox disabled: #include <alloca.h>
 
 /* bbox: not needed
@@ -121,6 +121,8 @@
 #define INT_NFIG ntohl(0x4e464947)
 #define INT_FIG_ ntohl(0x4649475f)
 */
+
+#include "stdio.hpp"
 
 char *target;
 char *depfile;
@@ -286,7 +288,7 @@ void do_config_file(char *filename)
 	int fd;
 	void *map;
 
-	fd = open(filename, O_RDONLY);
+	fd = open(filename, O_READ);
 	if (fd < 0) {
 		fprintf(stderr, "fixdep: ");
 		perror(filename);
@@ -357,7 +359,7 @@ void print_deps(void)
 	int fd;
 	void *map;
 
-	fd = open(depfile, O_RDONLY);
+	fd = open(depfile, O_READ);
 	if (fd < 0) {
 		fprintf(stderr, "fixdep: ");
 		perror(depfile);

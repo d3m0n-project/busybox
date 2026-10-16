@@ -69,7 +69,7 @@
 
 #include "libbb.h"
 #include "common_bufsiz.h"
-#include <mntent.h>
+// #include <mntent.h>
 #ifndef __BIONIC__
 # include <sys/swap.h>
 #endif

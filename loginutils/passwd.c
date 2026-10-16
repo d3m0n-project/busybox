@@ -38,8 +38,8 @@
 //usage:     "\n	-u	Unlock (enable) account"
 
 #include "libbb.h"
-#include <syslog.h>
-#include <sys/resource.h> /* setrlimit */
+// #include <syslog.h>
+// #include <sys/resource.h> /* setrlimit */
 
 static char* new_password(const struct passwd *pw, uid_t myuid, const char *algo)
 {

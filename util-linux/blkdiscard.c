@@ -26,7 +26,7 @@
 //usage:	"$ blkdiscard -o 0 -l 1G /dev/sdb"
 
 #include "libbb.h"
-#include <linux/fs.h>
+// #include <linux/fs.h>
 
 int blkdiscard_main(int argc, char **argv) MAIN_EXTERNALLY_VISIBLE;
 int blkdiscard_main(int argc UNUSED_PARAM, char **argv)

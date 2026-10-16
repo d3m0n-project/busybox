@@ -122,7 +122,7 @@
 
 #include "libbb.h"
 #include "common_bufsiz.h"
-#include <syslog.h>
+// #include <syslog.h>
 
 #if ENABLE_FEATURE_TFTP_GET || ENABLE_FEATURE_TFTP_PUT
 

@@ -12,20 +12,20 @@
 /* On Darwin, this may be needed to get SIGWINCH: */
 #define _DARWIN_C_SOURCE 1
 
-#include <sys/ioctl.h>
-#include <sys/wait.h>
-#include <ctype.h>
-#include <errno.h>
-#include <fcntl.h>
-#include <limits.h>
-#include <signal.h>
-#include <stdarg.h>
-#include <stdlib.h>
-#include <string.h>
-#include <strings.h> /* for strcasecmp */
-#include <termios.h>
-#include <unistd.h>
-#include <locale.h>
+// #include <sys/ioctl.h>
+// #include <sys/wait.h>
+// #include <ctype.h>
+// #include <errno.h>
+// #include <fcntl.h>
+// #include <limits.h>
+// #include <signal.h>
+// #include <stdarg.h>
+// #include <stdlib.h>
+// #include <string.h>
+// #include <strings.h> /* for strcasecmp */
+// #include <termios.h>
+// #include <unistd.h>
+// #include <locale.h>
 
 #define LKC_DIRECT_LINK
 #include "lkc.h"

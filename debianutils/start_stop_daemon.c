@@ -145,7 +145,7 @@ Misc options:
 //usage:     "\n	-q		Quiet"
 //usage:	)
 
-#include <sys/resource.h>
+// #include <sys/resource.h>
 
 /* Override ENABLE_FEATURE_PIDFILE */
 #define WANT_PIDFILE 1

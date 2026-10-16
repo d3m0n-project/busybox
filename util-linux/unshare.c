@@ -38,7 +38,7 @@
 //usage:     "\n				Modify mount propagation in mount namespace"
 //usage:     "\n	--setgroups allow|deny	Control the setgroups syscall in user namespaces"
 
-#include <sched.h>
+// #include <sched.h>
 #ifndef CLONE_NEWUTS
 # define CLONE_NEWUTS  0x04000000
 #endif
@@ -55,7 +55,7 @@
 # define CLONE_NEWNET  0x40000000
 #endif
 
-#include <sys/mount.h>
+// #include <sys/mount.h>
 #ifndef MS_REC
 # define MS_REC     (1 << 14)
 #endif

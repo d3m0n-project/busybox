@@ -16,7 +16,7 @@
 /******************************************************************************/
 
 /* instrinsic rotate */
-#include <stdlib.h>
+// #include <stdlib.h>
 #pragma intrinsic(_lrotr,_lrotl)
 #define ROR(x,n) _lrotr(x,n)
 #define ROL(x,n) _lrotl(x,n)

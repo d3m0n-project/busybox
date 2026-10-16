@@ -36,7 +36,7 @@
 //usage:	)
 
 #include "libbb.h"
-#include <linux/fs.h>
+// #include <linux/fs.h>
 
 #ifndef FITRIM
 struct fstrim_range {

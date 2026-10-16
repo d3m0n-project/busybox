@@ -24,7 +24,7 @@
 
 #include "libbb.h"
 #include "modutils.h"
-#include <sys/utsname.h> /* uname() */
+// #include <sys/utsname.h> /* uname() */
 
 /*
  * Theory of operation:

@@ -39,7 +39,7 @@
 //usage:     "\n	-s SH	Shell to use instead of user's default"
 
 #include "libbb.h"
-#include <syslog.h>
+// #include <syslog.h>
 
 #if ENABLE_FEATURE_SU_CHECKS_SHELLS
 /* Return 1 if SHELL is a restricted shell (one not returned by

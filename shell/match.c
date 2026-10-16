@@ -24,7 +24,7 @@
 #else
 # include "libbb.h"
 #endif
-#include <fnmatch.h>
+// #include <fnmatch.h>
 #include "match.h"
 
 char* FAST_FUNC scan_and_match(char *string, const char *pattern, unsigned flags)

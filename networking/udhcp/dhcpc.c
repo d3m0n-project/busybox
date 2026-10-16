@@ -25,16 +25,16 @@
 //kbuild:lib-$(CONFIG_FEATURE_UDHCPC_ARPING) += arpping.o
 //kbuild:lib-$(CONFIG_FEATURE_UDHCP_RFC3397) += domain_codec.o
 
-#include <syslog.h>
+// #include <syslog.h>
 /* Override ENABLE_FEATURE_PIDFILE - ifupdown needs our pidfile to always exist */
 #define WANT_PIDFILE 1
 #include "common.h"
 #include "dhcpd.h"
 #include "dhcpc.h"
 
-#include <netinet/if_ether.h>
-#include <linux/filter.h>
-#include <linux/if_packet.h>
+// #include <netinet/if_ether.h>
+// #include <linux/filter.h>
+// #include <linux/if_packet.h>
 
 #ifndef PACKET_AUXDATA
 # define PACKET_AUXDATA 8

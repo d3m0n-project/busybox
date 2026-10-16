@@ -4,9 +4,9 @@
  *
  * Licensed under GPLv2, see file LICENSE in this source tree.
  */
-#include <unistd.h>
-#include <stdlib.h>
-#include <string.h>
+// #include <unistd.h>
+// #include <stdlib.h>
+// #include <string.h>
 
 #include "autoconf.h"
 

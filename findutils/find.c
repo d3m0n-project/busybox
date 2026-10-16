@@ -326,7 +326,7 @@
 //usage:       "$ find / -name passwd\n"
 //usage:       "/etc/passwd\n"
 
-#include <fnmatch.h>
+// #include <fnmatch.h>
 #include "libbb.h"
 #include "common_bufsiz.h"
 #if ENABLE_FEATURE_FIND_REGEX

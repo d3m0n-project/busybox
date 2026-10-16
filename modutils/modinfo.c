@@ -16,8 +16,8 @@
 
 //kbuild:lib-$(CONFIG_MODINFO) += modinfo.o modutils.o
 
-#include <fnmatch.h>
-#include <sys/utsname.h> /* uname() */
+// #include <fnmatch.h>
+// #include <sys/utsname.h> /* uname() */
 #include "libbb.h"
 #include "modutils.h"
 

@@ -64,7 +64,7 @@
 #ifndef __packed
 # define __packed __attribute__((packed))
 #endif
-#include <mtd/ubi-user.h>
+// #include <mtd/ubi-user.h>
 
 #define do_attach (ENABLE_UBIATTACH && applet_name[3] == 'a')
 #define do_detach (ENABLE_UBIDETACH && applet_name[3] == 'd')

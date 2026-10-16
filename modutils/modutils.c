@@ -7,7 +7,7 @@
  */
 #include "modutils.h"
 
-#include <sys/syscall.h>
+// #include <sys/syscall.h>
 
 #define init_module(mod, len, opts) syscall(__NR_init_module, mod, len, opts)
 #if defined(__NR_finit_module)

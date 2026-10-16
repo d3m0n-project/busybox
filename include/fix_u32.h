@@ -13,8 +13,8 @@
  * may end up typedef'ing bb_hack_u32 inside foo.h,
  * and repeated typedefs aren't allowed in C/C++.
  */
-#include <asm/types.h>
-#include <linux/types.h>
+// #include <asm/types.h>
+// #include <linux/types.h>
 
 /* In case above includes still failed to provide the types,
  * provide them ourself

@@ -12,8 +12,8 @@
  */
 
 
-#include <assert.h>
-#include <sys/stat.h>
+// #include <assert.h>
+// #include <sys/stat.h>
 
 #include "libbb.h"
 

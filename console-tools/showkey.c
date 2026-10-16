@@ -26,7 +26,7 @@
 //usage:     "\n	-s	Display raw scan-codes"
 
 #include "libbb.h"
-#include <linux/kd.h>
+// #include <linux/kd.h>
 
 
 struct globals {

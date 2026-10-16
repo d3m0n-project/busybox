@@ -125,7 +125,7 @@
 //usage:	)
 //usage:     "\n	-~	Suppress ~s displayed past EOF"
 
-#include <sched.h>  /* sched_yield() */
+// #include <sched.h>  /* sched_yield() */
 
 #include "libbb.h"
 #include "common_bufsiz.h"
